@@ -1,6 +1,7 @@
 import NavbarComponent from "@/components/Navbar";
 import HomePage from "@/components/Home";
 import Stats from "@/components/stats";
+import About from "@/components/About";
 export default function Home() {
   return (
     <div className="">
@@ -12,6 +13,7 @@ export default function Home() {
           <div className="pt-4 mx-2">
             <HomePage></HomePage>
             <Stats></Stats>
+            <About></About>
           </div>
        </div>
 

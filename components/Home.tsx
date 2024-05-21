@@ -26,10 +26,10 @@ export default function HomePage() {
 
                     <div className="flex flex-row space-x-4">
                         <div className="">
-                            <Button className='bg-accentColor text-white' radius='sm' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button>
+                            <Button  className='bg-accentColor text-white' radius='sm' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button>
                         </div>
                         <div className="">
-                            <Button className='' radius='sm' variant='bordered' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
+                            <Button  className='' radius='sm' variant='bordered' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
                         </div>
                     </div>
 

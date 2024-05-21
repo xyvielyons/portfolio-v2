@@ -25,6 +25,7 @@ const config = {
       colors: {
         backgroundColor:"#FFFAFA",
         coolGray600:'#697077',
+        coolGray700:"4D5358",
         coolGray800:'#343A3F',
         coolGray900:'#21272A',
         accentColor:'#2962FF',
