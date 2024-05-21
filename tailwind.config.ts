@@ -19,7 +19,14 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        '4dp': '0 4px 5px rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2)',
+      },
       colors: {
+        backgroundColor:"#FFFAFA",
+        coolGray600:'#697077',
+        coolGray800:'#343A3F',
+        accentColor:'#2962FF',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
