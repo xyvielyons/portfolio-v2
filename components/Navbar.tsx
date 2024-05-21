@@ -1,7 +1,6 @@
 'use client'
 import React,{useState} from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
-import {AcmeLogo} from "./logo.jsx";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,7 +10,7 @@ export default function NavbarComponent() {
   const [nav,setNav]= useState<string>("home")
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] max-w-screen-xl mx-auto w-full" maxWidth={"full"}>
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp fixed mx-auto w-full " maxWidth={"xl"}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
