@@ -3,6 +3,7 @@ import HomePage from "@/components/Home";
 import Stats from "@/components/stats";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Services from "@/components/Services";
 export default function Home() {
   return (
     <div className="">
@@ -16,6 +17,7 @@ export default function Home() {
             <Stats></Stats>
             <About></About>
             <Skills></Skills>
+            <Services></Services>
           </div>
        </div>
 

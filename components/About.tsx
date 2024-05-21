@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function About() {
   return (
-    <div className='mx-2 space-y-4'> 
+    <div className='mx-2 space-y-4 About' id='About'> 
         <div className="w-full flex justify-center mt-4">
             <h1 className='text-[32px] font-bold text-coolGray800'>About</h1>
         </div>
