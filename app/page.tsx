@@ -2,6 +2,7 @@ import NavbarComponent from "@/components/Navbar";
 import HomePage from "@/components/Home";
 import Stats from "@/components/stats";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 export default function Home() {
   return (
     <div className="">
@@ -14,6 +15,7 @@ export default function Home() {
             <HomePage></HomePage>
             <Stats></Stats>
             <About></About>
+            <Skills></Skills>
           </div>
        </div>
 
