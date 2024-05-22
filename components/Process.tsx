@@ -50,19 +50,19 @@ export default function Process() {
               <div className='text-[42px] font-bold text-coolGray600 absolute top-0 right-1'>4</div>
             </div>
             <div className=''>
-              <Image className="h-full max-w-32" src='/picture4_page-0001.jpg' alt='image' width={1200} height={768}></Image>
+              <Image className="h-full max-w-24 md:max-w-32" src='/picture4_page-0001.jpg' alt='image' width={1200} height={768}></Image>
             </div>
           </div>
 
         </div>
          <div className="flex flex-row bg-coolGray10 rounded px-4 py-4 md:w-1/2">
             <div className="relative p-2 space-y-4">
-              <h1 className='text-[24px] font-bold text-coolGray800 z-50'>Launch & Maintenance</h1>
+              <h1 className='text-[24px] font-bold text-coolGray800'>Launch & Maintenance</h1>
               <p>We launch your website smoothly and offer ongoing maintenance or support</p>
               <div className='text-[42px] font-bold text-coolGray600 absolute top-0 right-1'>5</div>
             </div>
             <div className=''>
-              <Image className="h-full max-w-32" src='/picture5_page-0001.jpg' alt='image' width={1200} height={768}></Image>
+              <Image className="h-full max-w-28 md:max-w-32" src='/picture5_page-0001.jpg' alt='image' width={1200} height={768}></Image>
             </div>
           </div>
       

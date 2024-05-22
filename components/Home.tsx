@@ -31,7 +31,7 @@ export default function HomePage() {
                             <a href="https://drive.google.com/file/d/1ys4Bae_we6M-ZoFkpzYo2zOoXsvkv-qr/view?usp=sharing" target='_blank' ><Button  className='bg-accentColor text-white' radius='sm' size='sm' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button></a>
                         </div>
                         <div className="">
-                            <Button className='' radius='sm' variant='bordered' size='sm' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
+                            <a href="#Portfolio"><Button className='' radius='sm' variant='bordered' size='sm' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button></a>
                         </div>
                     </div>
 
