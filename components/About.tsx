@@ -6,10 +6,10 @@ function About() {
         <div className="w-full flex justify-center mt-4">
             <h1 className='text-[32px] font-bold text-coolGray800'>About</h1>
         </div>
-        <div className="flex flex-col md:flex-row md:gap-4 xl:gap-6">
+        <div className="flex flex-col md:flex-row md:gap-4 xl:gap-6 gap-2">
             <div className="bg-coolGray10 px-4 py-4 rounded relative md:w-3/6">
                 <div className="flex flex-row w-full mb-[8px]">
-                    <div className="max-w-56 h-full">
+                    <div className="max-w-40 h-full">
                         <Image className='h-[300px] rounded' src="/profile2.png" alt="profile picture" width={1200} height={768}></Image>
                     </div>
                     <div className="w-full flex items-end mx-2 my-2 mb-4">
@@ -18,7 +18,7 @@ function About() {
                             <div className="border-accentColor border-2 w-[48px] bg-accentColor"></div>
                         </div>
                     </div>
-                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-500 font-bold absolute text-[24px] w-[180px] top-10 left-44">Creativity, passion and a lot of coffee</h1>
+                    <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-500 font-bold absolute text-[24px] w-[180px] top-10 left-32">Creativity, passion and a lot of coffee</h1>
                 </div>
                 <div className="">
                     <h1 className='text-[18px] text-coolGray800 font-bold'>Xyvie Lyons</h1>
