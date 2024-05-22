@@ -22,6 +22,7 @@ export default function Process() {
           <div className="flex flex-row bg-coolGray10 rounded px-4 py-4 md:w-1/2">
             <div className="relative p-2 space-y-4">
               <h1 className='text-[24px] font-bold text-coolGray800 z-50'>Strategy & Planning</h1>
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <p>We define your website's purpose, user journey, and content structure for optimal user experience</p>
               <div className='text-[42px] font-bold text-coolGray600 absolute top-0 right-1'>2</div>
             </div>

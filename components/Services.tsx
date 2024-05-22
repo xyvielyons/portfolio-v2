@@ -98,6 +98,7 @@ function Services() {
                             <h1 className='text-[20px] font-bold text-coolGray800'>Search Engine Optimization (SEO) Implementation</h1>
                         </div>
                         <div className="">
+                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                             <p>I can integrate best practices to improve your website's ranking in search engine results</p>
                         </div>
                     </div>

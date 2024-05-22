@@ -2,7 +2,7 @@
 import React from 'react'
 import CountUp from "react-countup";
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/react";
-function Stats() {
+function MyStats() {
   return (
     <div className="w-full space-y-2 flex flex-col lg:flex-row lg:gap-4 gap-2">
         <div className="flex flex-row w-full space-x-2 lg:mt-[8px] lg:gap-4 gap-2">
@@ -69,4 +69,4 @@ function Stats() {
   )
 }
 
-export default Stats
+export default MyStats

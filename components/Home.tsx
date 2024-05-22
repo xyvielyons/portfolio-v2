@@ -6,6 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import {Button} from "@nextui-org/react";
 import { FaLocationArrow } from "react-icons/fa6";
+import {Link} from 'react-scroll';
+
 export default function HomePage() {
   return (
     <div className="Home px-4 py-4" id="Home">
@@ -26,10 +28,10 @@ export default function HomePage() {
 
                     <div className="flex flex-row space-x-4">
                         <div className="">
-                            <Button  className='bg-accentColor text-white' radius='sm' size='md' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button>
+                            <a href="https://drive.google.com/file/d/1ys4Bae_we6M-ZoFkpzYo2zOoXsvkv-qr/view?usp=sharing" target='_blank' ><Button  className='bg-accentColor text-white' radius='sm' size='md' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button></a>
                         </div>
                         <div className="">
-                            <Button  className='' radius='sm' variant='bordered' size='md' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
+                            <Button className='' radius='sm' variant='bordered' size='md' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
                         </div>
                     </div>
 

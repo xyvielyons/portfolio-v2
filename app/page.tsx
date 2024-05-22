@@ -1,6 +1,6 @@
 import NavbarComponent from "@/components/Navbar";
 import HomePage from "@/components/Home";
-import Stats from "@/components/stats";
+import MyStats from "@/components/MyStats";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
@@ -18,7 +18,7 @@ export default function Home() {
        <div className="max-w-screen-xl mx-auto mt-16">
           <div className="pt-4 mx-2 md:mx-4">
             <HomePage></HomePage>
-            <Stats></Stats>
+            <MyStats></MyStats>
             <About></About>
             <Skills></Skills>
             <Services></Services>

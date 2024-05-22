@@ -30,7 +30,9 @@ function About() {
 
             <div className="bg-coolGray10 px-4 py-4 rounded space-y-4 md:w-3/6">
                 <h1 className="text-[32px] font-bold leading-8 text-coolGray800">Crafting Seamless User Journeys.</h1>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <p className="text-[16px] font-normal text-coolGray700">I'm a multifaceted web professional with expertise in both UI/UX design and full-stack development. I leverage this combined skillset to translate user needs into intuitive and visually captivating digital experiences.  My passion lies in crafting seamless user journeys, meticulously designing interfaces, and building robust backend infrastructure to ensure flawless functionality.</p>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <p className='text-[16px] font-normal text-coolGray700'>Ready to collaborate on your next project? Let's build something remarkable.</p>
                 <div className="w-[266px] h-[88.89px]">
                     <Image src="/signature.svg" alt='signature' width={1600} height={1200}></Image>
