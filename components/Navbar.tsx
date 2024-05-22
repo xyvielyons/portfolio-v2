@@ -11,7 +11,7 @@ export default function NavbarComponent() {
   const [nav,setNav]= useState<string>("home")
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp">
+    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} className="bg-[#FFFFFF] shadow-4dp">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -100,7 +100,10 @@ export default function NavbarComponent() {
                 duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="home"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Home`}
-                onClick={()=>setNav("home")}
+                onClick={()=>{
+                  setNav("home")
+                  setIsMenuOpen(false)
+                }}
               >
                 Home
               </Link>
@@ -117,7 +120,10 @@ export default function NavbarComponent() {
                 duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="about"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#About`}
-                onClick={()=>setNav("about")}
+                onClick={()=>{
+                  setNav("about")
+                  setIsMenuOpen(false)
+                }}
               >
                 About
               </Link>
@@ -134,7 +140,11 @@ export default function NavbarComponent() {
                 duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="service"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Service`}
-                onClick={()=>setNav("service")}
+                onClick={()=>{
+                  setNav("service")
+                  setIsMenuOpen(false)
+
+                }}
               >
                 Service
               </Link>
@@ -151,7 +161,11 @@ export default function NavbarComponent() {
                 duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="portfolio"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Portfolio`}
-                onClick={()=>setNav("portfolio")}
+                onClick={()=>{
+                  setNav("portfolio")
+                  setIsMenuOpen(false)
+
+                }}
               >
                 Portfolio
               </Link>
@@ -170,7 +184,7 @@ export default function NavbarComponent() {
                 href={`#Contact`}
                 onClick={()=>{
                   setNav("contact")
-                  setIsMenuOpen(true)
+                  setIsMenuOpen(false)
                 }}
                 
               >
