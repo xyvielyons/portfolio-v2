@@ -10,11 +10,11 @@ import { RiSeoFill } from "react-icons/ri";
 import { GrHostMaintenance } from "react-icons/gr";
 function Services() {
   return (
-    <div className='mx-2 mt-[16px]' id='Services'>
+    <div className='mx-2 mt-[16px]' id='Service'>
         <div className="flex items-center justify-center flex-col my-4">
             <h2 className='text-[20px] font-medium text-coolGray800'>Services</h2>
             <h1 className='text-[32px] font-bold text-coolGray800'>What do we offer?</h1>
-            <p className='text-[16px] text-coolGray600'>The process that makes your life easier</p>
+            <p className='text-[16px] text-coolGray600'>The services that makes your life easier</p>
         </div>
         <div className="space-y-2">
             <div className="space-y-2">
