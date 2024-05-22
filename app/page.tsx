@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="">
@@ -24,7 +25,12 @@ export default function Home() {
             <Process></Process>
             <Portfolio></Portfolio>
             <Contact></Contact>
+            
           </div>
+       </div>
+
+       <div className="">
+         <Footer></Footer>
        </div>
 
      </div>
