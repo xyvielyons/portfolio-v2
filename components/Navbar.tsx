@@ -11,7 +11,7 @@ export default function NavbarComponent() {
   const [nav,setNav]= useState<string>("home")
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF]">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
