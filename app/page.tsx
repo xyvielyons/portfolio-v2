@@ -10,13 +10,13 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full">
        
-       <div className="w-full">
+       {/* <div className=""> */}
          <NavbarComponent></NavbarComponent>
-       </div>
-       <div className="max-w-screen-xl mx-auto mt-16">
-          <div className="pt-4 mx-2 md:mx-4">
+       {/* </div> */}
+       <div className="max-w-screen-xl mx-auto">
+          <div className="mx-2 md:mx-4">
             <HomePage></HomePage>
             <MyStats></MyStats>
             <About></About>

@@ -11,7 +11,7 @@ export default function NavbarComponent() {
   const [nav,setNav]= useState<string>("home")
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp fixed mx-auto w-full " maxWidth={"full"}>
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF]">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -183,6 +183,7 @@ export default function NavbarComponent() {
       
       </NavbarMenu>
     </Navbar>
+   
   );
 }
 
