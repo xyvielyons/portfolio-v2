@@ -20,17 +20,17 @@ export default function HomePage() {
                 
 
                     <div className="flex flex-row space-x-2 mb-4">
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaSquareXTwitter className='w-[24px] h-[24px]'></FaSquareXTwitter></Button>
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaInstagram className='w-[24px] h-[24px]'></FaInstagram></Button>
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaLinkedin className='w-[24px] h-[24px]'></FaLinkedin></Button>
+                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaSquareXTwitter className='w-[24px] h-[24px] text-coolGray800'></FaSquareXTwitter></Button>
+                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaInstagram className='w-[24px] h-[24px] text-coolGray800'></FaInstagram></Button>
+                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaLinkedin className='w-[24px] h-[24px] text-coolGray800'></FaLinkedin></Button>
                     </div>
 
                     <div className="flex flex-row space-x-4">
                         <div className="">
-                            <Button  className='bg-accentColor text-white' radius='sm' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button>
+                            <Button  className='bg-accentColor text-white' radius='sm' size='md' startContent={<IoDocument className='w-[24px] h-[24px]'></IoDocument>}>Download CV</Button>
                         </div>
                         <div className="">
-                            <Button  className='' radius='sm' variant='bordered' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
+                            <Button  className='' radius='sm' variant='bordered' size='md' startContent={<FaLocationArrow className='w-[24px] h-[24px]'/>}>View Portfolio</Button>
                         </div>
                     </div>
 
