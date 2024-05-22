@@ -75,15 +75,15 @@ export default function NavbarComponent() {
       <NavbarContent justify="end">
         <NavbarItem>
           <div className="flex space-x-[8px]">
-              <button className="h-[48px] w-[48px]  flex items-center justify-center ">
+              <a href="https://x.com/xyvielyons" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center ">
                 <FaSquareXTwitter className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
-              </button>
-              <button className="h-[48px] w-[48px]  flex items-center justify-center ">
+              </button></a>
+              <a href="https://www.instagram.com/xaviertechnologies/" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center ">
                 <FaInstagram className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
-              </button>
-              <button className="h-[48px] w-[48px]  flex items-center justify-center">
+              </button></a>
+              <a href="https://www.linkedin.com/in/xyvie-lyons-a8873820a" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center">
                 <FaLinkedin className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
-              </button>
+              </button></a>
           </div>
           
         </NavbarItem>

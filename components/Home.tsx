@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { FaTwitter } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -20,9 +19,9 @@ export default function HomePage() {
                 
 
                     <div className="flex flex-row space-x-2 mb-4">
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaSquareXTwitter className='w-[24px] h-[24px] text-coolGray800'></FaSquareXTwitter></Button>
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaInstagram className='w-[24px] h-[24px] text-coolGray800'></FaInstagram></Button>
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaLinkedin className='w-[24px] h-[24px] text-coolGray800'></FaLinkedin></Button>
+                        <a href='https://x.com/xyvielyons' target='_blank'><Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaSquareXTwitter className='w-[24px] h-[24px] text-coolGray800'></FaSquareXTwitter></Button></a>
+                        <a href='https://www.instagram.com/xaviertechnologies/' target='_blank'><Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaInstagram className='w-[24px] h-[24px] text-coolGray800'></FaInstagram></Button></a>
+                        <a href="https://www.linkedin.com/in/xyvie-lyons-a8873820a" target='_blank'><Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaLinkedin className='w-[24px] h-[24px] text-coolGray800'></FaLinkedin></Button></a>
                     </div>
 
                     <div className="flex flex-row space-x-4">
