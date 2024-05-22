@@ -4,8 +4,8 @@ import CountUp from "react-countup";
 import {Card, CardHeader, CardBody, CardFooter} from "@nextui-org/react";
 function Stats() {
   return (
-    <div className="w-full space-y-2">
-        <div className="flex flex-row w-full space-x-2">
+    <div className="w-full space-y-2 flex flex-col lg:flex-row lg:gap-4 gap-2">
+        <div className="flex flex-row w-full space-x-2 lg:mt-[8px] lg:gap-4 gap-2">
            <Card className='w-full' shadow='none'>
                 <CardHeader className='bg-coolGray10 flex flex-col items-center justify-center'>
                     <h1 className='text-[24px] font-normal text-accentColor'>0<CountUp
@@ -33,7 +33,7 @@ function Stats() {
                 
             </Card>
         </div>
-        <div className="flex flex-row w-full space-x-2">
+        <div className="flex flex-row w-full space-x-2 lg:gap-4 gap-2">
            <Card className='w-full' shadow='none'>
                 <CardHeader className='bg-coolGray10 flex flex-col items-center justify-center'>
                     <h1 className='text-[24px] font-normal text-accentColor'><CountUp

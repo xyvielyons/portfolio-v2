@@ -10,7 +10,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 export default function HomePage() {
   return (
     <div className="Home px-4 py-4" id="Home">
-        <div className='maincontainer1 flex flex-col md:flex-row md:gap-4'>
+        <div className='maincontainer1 flex flex-col md:flex-row md:gap-4 xl:gap-6'>
             <div className="container1 mb-6 md:p-6 md:space-y-6">
                     <div className="mb-4 ">
                         <p className='text-coolGray600 text-[20px] font-[500]'>Hello 👋</p>
@@ -39,8 +39,8 @@ export default function HomePage() {
             </div>
 
             <div className="container2 mb-6">
-                <div className="">
-                    <Image src="/xyvie lyons wireframing and development kit_page-0001.jpg" alt='profile' width={1200} height={768} ></Image>
+                <div className="max-w-[600px]">
+                    <Image className='' src="/xyvie lyons wireframing and development kit_page-0001.jpg" alt='profile' width={1200} height={768} ></Image>
 
                 </div>
             </div>

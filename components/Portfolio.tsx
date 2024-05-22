@@ -9,7 +9,7 @@ import {
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 export default function Portfolio() {
   return (
-    <div className='px-4 py-4 mt-2' id='Portfolio '>
+    <div className='px-4 py-4 mt-2' id='Portfolio'>
       <div className="flex flex-col items-center">
         <h1 className='text-[32px] font-bold text-coolGray800'>Portfolio</h1>
         <p className='text-[16px] text-coolGray600'>A selection of featured and selected projects</p>

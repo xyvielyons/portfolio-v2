@@ -18,7 +18,7 @@ import { SiKubernetes } from "react-icons/si";
 function Skills() {
   return (
     <div className='mx-2 mt-[8px]'>
-        <div className="space-y-4 flex flex-col md:flex-row md:gap-4 w-full">
+        <div className="space-y-4 flex flex-col md:flex-row md:gap-4 w-full xl:gap-6">
             <div className="bg-coolGray10 py-4 px-4 rounded w-full mt-[16px]">
                 <h1 className='font-bold text-coolGray800 text-[24px]'>Frontend Skills</h1>
                 <div className="grid grid-rows-2 grid-cols-4 md:gap-4 ">

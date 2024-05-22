@@ -6,7 +6,7 @@ function About() {
         <div className="w-full flex justify-center mt-4">
             <h1 className='text-[32px] font-bold text-coolGray800'>About</h1>
         </div>
-        <div className="flex flex-col md:flex-row md:gap-4">
+        <div className="flex flex-col md:flex-row md:gap-4 xl:gap-6">
             <div className="bg-coolGray10 px-4 py-4 rounded relative md:w-3/6">
                 <div className="flex flex-row w-full mb-[8px]">
                     <div className="max-w-56 h-full">

@@ -7,8 +7,8 @@ export default function Process() {
         <h1 className='text-coolGray800 text-[32px] font-bold'>How it works?</h1>
         <p className='text-coolGray600 text-[16px]'>It couldn’t be any easier ....</p>
       </div>
-      <div className="space-y-2 mt-2">
-        <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
+      <div className="space-y-2 mt-2 xl:space-y-4">
+        <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:gap-6">
           <div className="flex flex-row bg-coolGray10 rounded px-4 py-4 md:w-1/2 md:mt-[8px]">
             <div className="relative space-y-4 p-2">
               <h1 className='text-[24px] font-bold text-coolGray800 z-50'>Discovery & Research</h1>
@@ -31,8 +31,8 @@ export default function Process() {
           </div>
 
         </div>
-        <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
-          <div className="flex flex-row bg-coolGray10 rounded px-4 py-4 md:w-1/2 md:mt-[8px]">
+        <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:space-y-4 xl:gap-6">
+          <div className="flex flex-row bg-coolGray10 rounded px-4 py-4 md:w-1/2 md:mt-[16px]">
             <div className="relative p-2 space-y-4">
               <h1 className='text-[24px] font-bold text-coolGray800 z-50'>Design & Prototyping</h1>
               <p>We translate your vision into user-friendly interfaces through wireframes, mockups, and user testing for a polished look and feel</p>

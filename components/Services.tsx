@@ -16,8 +16,8 @@ function Services() {
             <h1 className='text-[32px] font-bold text-coolGray800'>What do we offer?</h1>
             <p className='text-[16px] text-coolGray600'>The services that makes your life easier</p>
         </div>
-        <div className="space-y-2 md:space-y-4">
-            <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
+        <div className="space-y-2 md:space-y-4 xl:space-y-4">
+            <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:gap-6">
                 <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:mt-[8px] md:w-1/2">
                     <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-slate-300"><FaImages className='w-[24px] h-[24px] text-coolGray800'/></div>
                     <div className="">
@@ -38,7 +38,7 @@ function Services() {
                 </div>
             </div>
             <div className="space-y-2 md:space-y-4">
-                <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
+                <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:gap-6">
                     <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:w-1/2 md:mt-[8px]">
                         <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-slate-300"><BsDatabaseFillGear className='w-[24px] h-[24px] text-coolGray800'/></div>
                         <div className="">
@@ -60,7 +60,7 @@ function Services() {
                 </div>
             </div>
             <div className="space-y-2 md:space-y-4">
-                <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
+                <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:gap-6">
                     <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:w-1/2 md:mt-[8px]">
                         <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-slate-300"><FaMoneyCheckAlt className='w-[24px] h-[24px] text-coolGray800'/></div>
                         <div className="">
@@ -82,7 +82,7 @@ function Services() {
                 </div>
             </div>
             <div className="space-y-2">
-                <div className="space-y-2 flex flex-col md:flex-row md:gap-4">
+                <div className="space-y-2 flex flex-col md:flex-row md:gap-4 xl:gap-6">
                     <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:w-1/2 md:mt-[8px]">
                         <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-slate-300"><MdAccessibility className='w-[24px] h-[24px] text-coolGray800'/></div>
                         <div className="">
@@ -103,7 +103,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:w-1/2">
+            <div className="bg-coolGray10 py-4 px-4 rounded space-y-4 md:mt-[8px] xl:mt-[16px]">
                     <div className="w-[48px] h-[48px] flex items-center justify-center rounded-full bg-slate-300"><GrHostMaintenance className='w-[24px] h-[24px] text-coolGray800'/></div>
                     <div className="">
                         <h1 className='text-[20px] font-bold text-coolGray800'>Website Maintenance & Support</h1>
