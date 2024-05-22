@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
 import Process from "@/components/Process";
+import Portfolio from "@/components/Portfolio";
 export default function Home() {
   return (
     <div className="">
@@ -20,6 +21,7 @@ export default function Home() {
             <Skills></Skills>
             <Services></Services>
             <Process></Process>
+            <Portfolio></Portfolio>
           </div>
        </div>
 
