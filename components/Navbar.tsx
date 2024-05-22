@@ -1,9 +1,10 @@
 'use client'
 import React,{useState} from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Button} from "@nextui-org/react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import {Link} from 'react-scroll';
 import Image from "next/image.js";
 export default function NavbarComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -27,7 +28,7 @@ export default function NavbarComponent() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <div className="flex flex-col items-center">
-              <Link href="#Home" className={`text-[16px] 0 font-medium ${nav==="home"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("home")}>
+              <Link to="Home" spy={true} smooth={true} offset={-60} duration={500} className={`text-[16px] font-medium ${nav==="home"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("home")}>
                 Home
               </Link>
               {nav==="home" && <div className="w-2 h-2 bg-accentColor rounded-full"></div>}
@@ -38,7 +39,7 @@ export default function NavbarComponent() {
 
         <NavbarItem>
         <div className="flex flex-col items-center">
-          <Link href="#About" aria-current="page" className={`text-[16px] font-medium ${nav==="about"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("about")}>
+          <Link to="About" spy={true} smooth={true} offset={-60} duration={500} aria-current="page" className={`text-[16px] font-medium ${nav==="about"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("about")}>
             About
           </Link>
           {nav==="about" && <div className="w-2 h-2 bg-accentColor rounded-full"></div>}
@@ -47,7 +48,7 @@ export default function NavbarComponent() {
 
         <NavbarItem>
         <div className="flex flex-col items-center">
-          <Link href="#Service" className={`text-[16px] font-medium ${nav==="service"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("service")}>
+          <Link to="Service" spy={true} smooth={true} offset={-60} duration={500} className={`text-[16px] font-medium ${nav==="service"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("service")}>
             Service
           </Link>
           {nav==="service" && <div className="w-2 h-2 bg-accentColor rounded-full"></div>}
@@ -56,7 +57,7 @@ export default function NavbarComponent() {
         </NavbarItem>
         <NavbarItem>
         <div className="flex flex-col items-center">
-          <Link  href="#Portfolio" className={`text-[16px] font-medium ${nav==="portfolio"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("portfolio")}>
+          <Link to="Portfolio" spy={true} smooth={true} offset={-60} duration={500} className={`text-[16px] font-medium ${nav==="portfolio"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("portfolio")}>
             Portfolio
           </Link>
           {nav==="portfolio" && <div className="w-2 h-2 bg-accentColor rounded-full"></div>}
@@ -64,7 +65,7 @@ export default function NavbarComponent() {
         </NavbarItem>
         <NavbarItem>
         <div className="flex flex-col items-center">
-          <Link href="#Contact" className={`text-[16px] font-medium ${nav==="contact"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("contact")}>
+          <Link to="Contact" spy={true} smooth={true} offset={-60} duration={500} className={`text-[16px] font-medium ${nav==="contact"?"text-coolGray800":"text-coolGray600"}`} onClick={()=>setNav("contact")}>
             Contact
           </Link>
           {nav==="contact" && <div className="w-2 h-2 bg-accentColor rounded-full"></div>}
@@ -92,6 +93,11 @@ export default function NavbarComponent() {
           <NavbarMenuItem>
               <div className="flex items-center">
               <Link
+                to="Home" 
+                spy={true} 
+                smooth={true} 
+                offset={-60} 
+                duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="home"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Home`}
                 onClick={()=>setNav("home")}
@@ -104,6 +110,11 @@ export default function NavbarComponent() {
           <NavbarMenuItem>
               <div className="flex items-center">
               <Link
+                to="About" 
+                spy={true} 
+                smooth={true} 
+                offset={-60} 
+                duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="about"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#About`}
                 onClick={()=>setNav("about")}
@@ -116,6 +127,11 @@ export default function NavbarComponent() {
           <NavbarMenuItem>
               <div className="flex items-center">
               <Link
+                to="Service" 
+                spy={true} 
+                smooth={true} 
+                offset={-60} 
+                duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="service"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Service`}
                 onClick={()=>setNav("service")}
@@ -128,6 +144,11 @@ export default function NavbarComponent() {
           <NavbarMenuItem>
               <div className="flex items-center">
               <Link
+                to="Portfolio" 
+                spy={true} 
+                smooth={true} 
+                offset={-60} 
+                duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="portfolio"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Portfolio`}
                 onClick={()=>setNav("portfolio")}
@@ -140,6 +161,11 @@ export default function NavbarComponent() {
           <NavbarMenuItem>
               <div className="flex items-center">
               <Link
+                to="Contact" 
+                spy={true} 
+                smooth={true} 
+                offset={-60} 
+                duration={500}
                 className={`w-full text-2xl p-[16px] hover:bg-blue-100 ${nav==="contact"?"text-coolGray800":"text-coolGray600"}`}
                 href={`#Contact`}
                 onClick={()=>{
