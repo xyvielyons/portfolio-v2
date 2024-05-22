@@ -11,7 +11,7 @@ export default function NavbarComponent() {
   const [nav,setNav]= useState<string>("home")
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp fixed mx-auto w-full " maxWidth={"xl"}>
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-[#FFFFFF] shadow-4dp fixed mx-auto w-full " maxWidth={"full"}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -75,13 +75,13 @@ export default function NavbarComponent() {
       <NavbarContent justify="end">
         <NavbarItem>
           <div className="flex space-x-[8px]">
-              <a href="https://x.com/xyvielyons" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center ">
+              <a href="https://x.com/xyvielyons" target='_blank'><button className="h-[40px] w-[40px]  flex items-center justify-center ">
                 <FaSquareXTwitter className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
               </button></a>
-              <a href="https://www.instagram.com/xaviertechnologies/" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center ">
+              <a href="https://www.instagram.com/xaviertechnologies/" target='_blank'><button className="h-[40px] w-[40px]  flex items-center justify-center ">
                 <FaInstagram className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
               </button></a>
-              <a href="https://www.linkedin.com/in/xyvie-lyons-a8873820a" target='_blank'><button className="h-[48px] w-[48px]  flex items-center justify-center">
+              <a href="https://www.linkedin.com/in/xyvie-lyons-a8873820a" target='_blank'><button className="h-[40px] w-[40px]  flex items-center justify-center">
                 <FaLinkedin className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
               </button></a>
           </div>
