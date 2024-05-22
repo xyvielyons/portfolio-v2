@@ -17,11 +17,11 @@ import { RiFirebaseFill } from "react-icons/ri";
 import { SiKubernetes } from "react-icons/si";
 function Skills() {
   return (
-    <div className='mx-2 mt-[16px]'>
-        <div className=" space-y-4">
-            <div className="bg-coolGray10 py-4 px-4 rounded">
+    <div className='mx-2 mt-[8px]'>
+        <div className="space-y-4 flex flex-col md:flex-row md:gap-4 w-full">
+            <div className="bg-coolGray10 py-4 px-4 rounded w-full mt-[16px]">
                 <h1 className='font-bold text-coolGray800 text-[24px]'>Frontend Skills</h1>
-                <div className="grid grid-rows-2 grid-cols-4 gap-4 mt-[8px]">
+                <div className="grid grid-rows-2 grid-cols-4 md:gap-4 ">
                     <div className="flex flex-col items-center">
                         <div className="w-[48px] h-[48px] flex items-center justify-center"><FaHtml5 className='w-[48px] h-[48px] text-coolGray800 '/></div>
                         <h1 className='text-[16px] font-bold text-coolGray600'>Html</h1>
@@ -59,7 +59,7 @@ function Skills() {
 
             </div>
 
-            <div className="bg-coolGray10 py-4 px-4 rounded">
+            <div className="bg-coolGray10 py-4 px-4 rounded w-full ">
                 <h1 className='font-bold text-coolGray800 text-[24px]'>Backend Skills</h1>
                 <div className="grid grid-rows-2 grid-cols-4 gap-4 mt-[8px]">
                     <div className="flex flex-col items-center">

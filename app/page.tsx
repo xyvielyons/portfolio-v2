@@ -16,7 +16,7 @@ export default function Home() {
          <NavbarComponent></NavbarComponent>
        </div>
        <div className="max-w-screen-xl mx-auto mt-16">
-          <div className="pt-4 mx-2">
+          <div className="pt-4 mx-2 md:mx-4">
             <HomePage></HomePage>
             <Stats></Stats>
             <About></About>
