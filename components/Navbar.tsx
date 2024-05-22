@@ -1,7 +1,7 @@
 'use client'
 import React,{useState} from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
-import { FaTwitter } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image.js";
@@ -75,7 +75,7 @@ export default function NavbarComponent() {
         <NavbarItem>
           <div className="flex space-x-[8px]">
               <button className="h-[48px] w-[48px]  flex items-center justify-center ">
-                <FaTwitter className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
+                <FaSquareXTwitter className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>
               </button>
               <button className="h-[48px] w-[48px]  flex items-center justify-center ">
                 <FaInstagram className="w-[24px] h-[24px] text-coolGray600 hover:text-coolGray800"/>

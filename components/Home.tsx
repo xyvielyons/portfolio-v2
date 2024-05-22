@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import {Button} from "@nextui-org/react";
 import { FaLocationArrow } from "react-icons/fa6";
 export default function HomePage() {
@@ -19,7 +20,7 @@ export default function HomePage() {
                 
 
                     <div className="flex flex-row space-x-2 mb-4">
-                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaTwitter className='w-[24px] h-[24px]'></FaTwitter></Button>
+                        <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaSquareXTwitter className='w-[24px] h-[24px]'></FaSquareXTwitter></Button>
                         <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaInstagram className='w-[24px] h-[24px]'></FaInstagram></Button>
                         <Button isIconOnly radius="full" className="w-[48px] h-[48px]"><FaLinkedin className='w-[24px] h-[24px]'></FaLinkedin></Button>
                     </div>
